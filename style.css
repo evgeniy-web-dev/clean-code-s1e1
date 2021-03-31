@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .header {
   width: 500px;
@@ -32,7 +32,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main__adding-task-form {
   display: flex;
@@ -53,7 +53,7 @@ input, .btn {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 .btn:hover {
@@ -81,7 +81,7 @@ h3,
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
@@ -128,7 +128,7 @@ input[type="text"]:focus {
   width: 226px;
 }
 .main__task-list-item-input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .btn.delete:hover {
   color: #CF2323;
@@ -144,20 +144,20 @@ input[type="text"]:focus {
 
 /* Completed */
 #main__completed-task-list label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .main__completed-task-list-item-input[type="text"],
 .main__task-list-item-input[type="text"] {
-  display: none
+  display: none;
 }
 
 .main__task-list-item.edit-mode input[type="text"],
 .main__completed-task-list-item.edit-mode input[type="text"] {
-  display:inline-block;
-  width: 224px
+  display: inline-block;
+  width: 224px;
 }
 
 .main__task-list-item.edit-mode label,
