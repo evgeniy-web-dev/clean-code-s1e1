@@ -90,7 +90,6 @@ h3,
 input[type="text"]:focus {
   color: #333;
 }
-
 /* New Task */
 #label__new-task {
   display: block;
@@ -102,7 +101,6 @@ input[type="text"]:focus {
 .btn:hover {
   color: #0fc57c;
 }
-
 /* Task list */
 .main__task-list-item,
 .main__completed-task-list-item {
@@ -114,11 +112,10 @@ input[type="text"]:focus {
   justify-content: space-between;
   align-items: center;
 }
-.main__task-list-item > *,
-.main__completed-task-list-item > * {
+.main__task-list-item,
+.main__completed-task-list-item {
   vertical-align: middle;
 }
-
 .main__task-list-item-input[type="checkbox"],
 .main__completed-task-list-item-input[type="checkbox"] {
   margin: 0 10px;
@@ -144,25 +141,21 @@ input[type="text"]:focus {
 .btn.delete img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 #main__completed-task-list label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 .main__completed-task-list-item-input[type="text"],
 .main__task-list-item-input[type="text"] {
   display: none;
 }
-
 .main__task-list-item.edit-mode input[type="text"],
 .main__completed-task-list-item.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
-
 .main__task-list-item.edit-mode label,
 .main__completed-task-list-item.edit-mode label {
   display: none;
